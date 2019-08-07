@@ -2,8 +2,8 @@ FROM frolvlad/alpine-glibc:latest
 
 MAINTAINER René Groß <rene.gross@create.at>
 
-ENV OC_VERSION=v3.7.2 \
-    OC_TAG_SHA=282e43f \
+ENV OC_VERSION=v3.9.0 \
+    OC_TAG_SHA=191fece \
     BUILD_DEPS='tar gzip' \
     RUN_DEPS='curl ca-certificates gettext zsh' \
     SHELL=/bin/zsh
